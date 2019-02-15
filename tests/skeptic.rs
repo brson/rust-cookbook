@@ -1,1 +1,1 @@
-include!(concat!(env!("OUT_DIR"), "/skeptic-tests.rs"));
+include!("skeptic/skeptic-tests.rs");

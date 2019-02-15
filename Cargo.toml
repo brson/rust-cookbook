@@ -56,9 +56,9 @@ ansi_term = "0.11.0"
 syslog = "4.0"
 
 [build-dependencies]
-skeptic = "0.13"
+skeptic = { version = "0.13", path = "../rust-skeptic/src/skeptic" }
 walkdir = "2.0"
 
 [dev-dependencies]
-skeptic = "0.13"
+#skeptic = "0.13"
 walkdir = "2.0"
